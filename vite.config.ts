@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"https://zarzamoraati.github.io/test_performance_app_front/"
+  base:"https://zarzamoraati.github.io/frontend_quiz_app/"
 })
