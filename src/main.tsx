@@ -6,11 +6,12 @@ import { SquizPage } from './pages/SquizPage'
 import { About } from './pages/About'
 
 const router=createHashRouter([
-  {element:<Layout/>,
+  {
+    element:<Layout/>,
     path:"/",
     children:[
       { 
-        path:"/",
+        index:true,
         element:<SquizPage/>,
         
       },{
